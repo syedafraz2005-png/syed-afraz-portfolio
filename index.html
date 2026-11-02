@@ -1,22 +1,77 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Syed Afraz — Java Developer | TAP Academy Student Portfolio</title>
+    <meta
+      name="description"
+      content="Syed Afraz, Java Full Stack Developer from Bengaluru. Projects in Java and React built during TAP Academy placement training. View my work and resume."
+    />
+    <meta
+      name="keywords"
+      content="Syed Afraz, Java Full Stack Developer, Core Java, SQL, Python, JavaScript, Bengaluru, portfolio, TAP Academy, TAP Academy student portfolio, TAP Academy placement training, augmented reality"
+    />
+    <meta name="author" content="Syed Afraz" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ff2a2a" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <title>My Portfolio</title>
-  <meta name="keywords"
-    content="TAP Academy, TAP Academy student, TAP Academy placement training, augmented reality, developer portfolio" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Inter:wght@300..900&display=swap"
-    rel="stylesheet" />
-  <script type="application/ld+json">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Syed Afraz — Java Developer | TAP Academy Student Portfolio" />
+    <meta
+      property="og:description"
+      content="Syed Afraz, Java Full Stack Developer from Bengaluru. Projects in Java and React built during TAP Academy placement training. View my work and resume."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Syed Afraz Portfolio" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Syed Afraz — Java Developer | TAP Academy Student Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Syed Afraz, Java Full Stack Developer from Bengaluru. Projects in Java and React built during TAP Academy placement training. View my work and resume."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Inter:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Syed Afraz",
+      "jobTitle": "Java Full Stack Developer",
+      "description": "Syed Afraz, Java Full Stack Developer from Bengaluru. Projects in Java and React built during TAP Academy placement training. View my work and resume.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru"
+      },
+      "knowsAbout": [
+        "Core Java",
+        "Object-Oriented Programming (OOP)",
+        "SQL",
+        "MySQL",
+        "Python",
+        "React",
+        "JavaScript",
+        "Database Design",
+        "REST APIs"
+      ],
+      "image": "/og-image.png",
+      "sameAs": [
+        "https://github.com/syedafraz2005-png",
+        "https://linkedin.com/in/syed-afraz"
+      ],
       "alumniOf": {
         "@type": "EducationalOrganization",
         "name": "TAP Academy",
@@ -24,11 +79,9 @@
       }
     }
     </script>
-</head>
-
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
-
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
