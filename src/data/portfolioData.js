@@ -25,7 +25,7 @@ export const academy = {
 
 export const socialLinks = {
   github: "https://github.com/syedafraz2005-png",
-  linkedin: "https://linkedin.com/in/syed-afraz",
+  linkedin: "https://www.linkedin.com/in/syed-afraz-72359729a",
   instagram: "",
 };
 
@@ -174,7 +174,7 @@ export const certificates = {
       icon: "🏅",
     },
   ],
-  viewAllUrl: "https://linkedin.com/in/syed-afraz",
+  viewAllUrl: "https://www.linkedin.com/in/syed-afraz-72359729a",
 };
 
 export const education = {
