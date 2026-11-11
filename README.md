@@ -2,7 +2,7 @@
 
 A high-performance, single-page developer portfolio showcasing full-stack projects, software architecture, technical skillset, and professional experience.
 
-**Live site:** https://YOUR-SITE-URL/
+**Live site:** https://syed-afraz-portfolio.vercel.app
 
 ---
 
