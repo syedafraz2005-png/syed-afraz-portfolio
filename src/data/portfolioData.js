@@ -8,13 +8,13 @@ export const personalInfo = {
   firstName: "Syed Afraz",
   brandName: "Syed Afraz",
   title: "Java Full Stack Developer",
-  location: "Bengaluru, India",
-  phone: "+91 9742790474",
+  location: "Mysore, Karnataka, India",
+  phone: "+91 97427 90474",
   emails: {
     primary: "syedafraz2005@gmail.com",
     secondary: "",
   },
-  summary: "BCA Graduate | Entry-Level Java Developer | Core Java | OOPs | SQL | JDBC | Software Development",
+  summary: "BCA graduate and aspiring Java Full Stack Developer with a strong foundation in Core Java, object-oriented programming, SQL and front-end development, plus working knowledge of Python.",
   resumeUrl: "/Syed_Afraz_Resume.pdf",
 };
 
@@ -182,7 +182,7 @@ export const education = {
   institution: "MIT Degree College, Mysore, Karnataka, India",
   cgpa: "2023 – 2026",
   graduation: "2026",
-  twelfth: "Pre-University Course (PUC), Science — Vidyavardhaka PU College",
+  twelfth: "Pre-University Course (PUC), Science | 2021 – 2023 — Vidyavardhaka PU College, Mysore, Karnataka, India",
   tenth: "",
 };
 
