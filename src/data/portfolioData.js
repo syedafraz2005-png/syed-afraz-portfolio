@@ -63,20 +63,28 @@ export const skillsContent = {
 export const technicalSkills = {
   categories: [
     {
-      title: "Programming",
+      title: "Programming Languages",
       skills: [
         { name: "Java (Core & OOP)" },
+        { name: "Collections Framework" },
+        { name: "Exception Handling" },
         { name: "Python" },
         { name: "SQL" },
-        { name: "JavaScript" },
       ],
     },
     {
       title: "Web Technologies",
       skills: [
-        { name: "HTML5 & CSS3" },
-        { name: "JavaScript (ES6+)" },
+        { name: "HTML5" },
+        { name: "CSS3" },
+        { name: "JavaScript" },
+      ],
+    },
+    {
+      title: "Frameworks & Libraries",
+      skills: [
         { name: "Django" },
+        { name: "JDBC" },
         { name: "REST APIs" },
       ],
     },
@@ -86,16 +94,28 @@ export const technicalSkills = {
         { name: "MySQL" },
         { name: "Database Design" },
         { name: "Normalization" },
-        { name: "JDBC" },
+        { name: "Joins & Complex Queries" },
+        { name: "SQL Queries" },
       ],
     },
     {
-      title: "Tools & Concepts",
+      title: "Tools & Platforms",
       skills: [
-        { name: "Git & GitHub" },
-        { name: "Eclipse / VS Code" },
+        { name: "Git" },
+        { name: "GitHub" },
+        { name: "VS Code" },
+        { name: "Eclipse IDE" },
         { name: "MySQL Workbench" },
-        { name: "Data Structures & OOP" },
+      ],
+    },
+    {
+      title: "Core Concepts",
+      skills: [
+        { name: "Object-Oriented Programming" },
+        { name: "Data Structures & Algorithms" },
+        { name: "DBMS" },
+        { name: "CRUD Operations" },
+        { name: "Debugging" },
       ],
     },
   ],
